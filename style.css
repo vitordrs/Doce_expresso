@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #F4E1B2, #6F4E37);
+}
+
+header{
+    font-weight: normal;
+}
+
+header{
+    background-color: #D7B899;
+    color:#6F4E37 ;
+    padding: 16px 0;
+}
+
+header h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+}
+
+header h3 {
+    color: #746860;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+        & a{
+            text-decoration: none;
+            color: #746860;
+        }
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .title{
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.sobrenos{
+    margin:20px 20px;
+}
+
+.sobrenos h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 80px;
+    margin: 30px 40%;
+}
+
+.sobrenos .content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sobrenos img {
+    width:850px;
+    margin-right: 20px;
+}
+
+.sobrenos .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sobrenos p {
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 80px;
+    margin: 30px 40%;
+}
+
+.cardapio{
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardapio .info{
+    background-color: #6F4E37;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardapio .info h3 {
+    font-size: 40px;
+    color: #D7B899;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-family: "Dancing Script", cursive;
+}
+
+.cardapio .info h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #D7B899;
+}
+
+.cardapio .info h4 span{
+    color: #8d7864;
+}
+
+.cardapio .info h4 span:hover{
+    text-decoration: underline;
+}
+
+.cardapio div {
+    background-color: #A67B5B;
+    box-shadow: 0px 0px 4px 1px;
+}
+
+.cardapio .info .pedir {
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A67B5B;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #D7B899;
+    font-weight: bold;
+}
+
+.cardapio .info .pedir:hover{
+    background-color: #a18976;
+    cursor: pointer;
+    background-color: #A67B5B;
+    box-shadow: 0px 0px 4px 1px;
+}
+
+.contat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario label {
+    color:#6e4223 ;
+    text-transform: capitalize;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form button {
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A67B5B;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #D7B899;
+    font-weight: bold;
+}
+
+form button:hover{
+    background-color: #a18976;
+    cursor: pointer;
+    background-color: #A67B5B;
+    box-shadow: 0px 0px 4px 1px #6F4E37;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+input:focus, textarea:focus{
+    border: 2px solid;
+    outline-color: #D7B899;
+    background-color: #f7dfca;
+}
+
+#contato {
+    font-family: "Great Vibes", cursive;
+    font-size: 80px;
+}
+
+.rodape, .dev{
+    background-color: #D7B899;
+    color:#6F4E37 ;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
