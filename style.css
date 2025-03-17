@@ -241,3 +241,40 @@ input:focus, textarea:focus{
     justify-content: center;
     text-transform: capitalize;
 }
+
+/* ajuste de responsividade */
+@media (max-width: 768px) {
+    .sobrenos .content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header h3 {
+        font-size: 20px;
+    }
+
+    .sobrenos h2, .menu h1 {
+        font-size: 40px;
+    }
+
+
+    .sobrenos img {
+        max-width: 90%;
+    }
+
+    .cardapio {
+        grid-template-columns: 1fr; /* Apenas uma coluna em telas menores */
+    }
+
+    form {
+        max-width: 90%;
+    }
+}
